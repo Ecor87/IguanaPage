@@ -1,0 +1,102 @@
+body{
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header{   /*título e imágen principal*/
+  display: flex;
+  flex-direction: column;
+}
+h1{   /*título principal*/
+  display: flex;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+  justify-content: center;
+  margin-top: 7px; 
+  margin-bottom: 7px;
+  height: 73px;
+  align-items: center;
+}
+h2{   /*título sección iconos*/
+  text-align: center;
+  font-weight: 300;
+  color: #ffffff;
+}
+h3{   /*texto de cada ícono*/
+  text-align: center;
+  font-size: 25px;
+  font-weight: 300;
+}
+p{
+  color: #ffffff;
+}
+footer{
+  display: block;
+  height: 102px;
+  font-size: 20px;
+  font-weight: 300;
+  background-color: #1e1a13;
+  text-align: center;
+}
+/*----------------------------------------------*/
+.desc-section {   /*artículo sobre iguanas*/
+  background-color: #000000;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+  padding: 20px
+}
+.icons-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #1E1A13;
+  margin: 0px;
+  padding: 10px;
+  height: 348px;
+  font-size: 30px;
+  text-align: center;
+}
+.figures{   /*estos son los íconos en sí*/
+  display: flex;
+  justify-content: center;
+}
+.img{   /*varias imágenes de iguanas*/
+  box-sizing: content-box;
+  padding: 8px;
+  height: 202px;
+  width: 316px;
+}
+/*----------------------------------------------*/
+#img0{    /*imágen principal*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 727px;
+  width: 1280px;
+}
+#desc{    /*texto de artículo sobre iguanas*/
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 475px;
+}
+#img1{    /*imágen de artículo sobre iguanas*/
+  box-sizing: content-box;
+  width: 399px;
+  padding-left: 106px;
+  padding-right: 150;
+}
+#image-section{  /*contenedor de varias imágenes de iguanas*/
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+#foot{  /*texto footer*/
+  padding-top: 39px;
+  padding-bottom: 39px;
+}
